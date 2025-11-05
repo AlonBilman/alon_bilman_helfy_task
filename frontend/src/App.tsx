@@ -77,7 +77,7 @@ export default function App() {
   return (
     <div className="app-container">
       <header>
-        <h1>Task Manager App</h1>
+        <h1>My Task Manager App - Helfy's Task</h1>
       </header>
 
       <main>
