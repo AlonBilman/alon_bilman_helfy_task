@@ -1,8 +1,5 @@
 # Task Manager App
 
-- Backend entry: [backend/server.ts](backend/server.ts)
-- Frontend entry: [frontend/src/main.tsx](frontend/src/main.tsx), 
-
 ## Setup and Installation
 
 ### Backend
