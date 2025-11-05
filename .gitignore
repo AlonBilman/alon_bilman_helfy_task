@@ -1,0 +1,76 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node dependency folders
+node_modules/
+**/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# Build outputs / caches
+dist/
+build/
+out/
+coverage/
+.cache/
+.vite/
+.vite/*
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Generated lockfiles by package managers — DO NOT ignore lockfiles; keep them tracked
+# (package-lock.json, yarn.lock, pnpm-lock.yaml) — track these for apps for reproducible installs
+
+# VS Code settings - ignore workspace-specific files but keep the shared recommended settings
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Windows and editor temporary files
+*~ 
+~$*
+*.tmp
+*.swp
+
+# IDEs
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Misc DB / archives
+*.sqlite
+*.db
+*.tgz
+
+# Frontend specifics (Vite/React)
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+
+# Backend specifics (Node/TS)
+backend/dist/
+backend/build/
+backend/coverage/
+backend/*.log
+backend/.env
+
+# Optional test artifacts
+test-results/
+*.trx
