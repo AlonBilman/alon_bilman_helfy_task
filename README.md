@@ -29,21 +29,4 @@
 
 - Backend (routes, controller, validation): ~2h 
 - Frontend (views, state, service): ~2h
-- Styling and carousel UX: 0h
-
-## Project Structure
-```
-backend/
-  controllers/ task.controller.ts
-  middleware/ validateTask.ts, validateTaskId.ts
-  models/ task.model.ts
-  routes/ tasks.route.ts
-  store/ task.store.ts
-  server.ts
-frontend/
-  src/
-    App.tsx
-    main.tsx
-    components/ TaskList.tsx, TaskItem.tsx, TaskForm.tsx, TaskList.css
-    services/ task.service.ts
-```
+- Styling and carousel UX: ~5m
